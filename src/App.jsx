@@ -4,9 +4,9 @@ import { Heart, Sparkles, ChevronLeft, ChevronRight, Star } from "lucide-react";
 
 // Personalization: Add your photos here
 const PHOTOS = [
-  "https://via.placeholder.com/400x300?text=Us+Together",
-  "https://via.placeholder.com/400x300?text=Beautiful+Margaret",
-  "https://via.placeholder.com/400x300?text=Our+Memories",
+  "/2.png",
+  "/3.png",
+  "/1.png",
 ];
 
 // Reasons why
@@ -262,7 +262,7 @@ export default function App() {
                 animate={{ x: noPosition.x, y: noPosition.y }}
                 onMouseEnter={moveNoButton}
                 onClick={moveNoButton}
-                className="bg-gray-200 hover:bg-gray-300 text-gray-700 px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold shadow-md absolute md:static touch-none active:scale-90"
+                className="bg-gray-200 hover:bg-gray-300 text-gray-700 px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold shadow-md touch-none active:scale-90"
               >
                 Nope 🙈
               </motion.button>
